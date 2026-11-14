@@ -1,8 +1,8 @@
 # Read-Alike Test: code and derived data
 
 Code and derived data for the paper *Read-Alike Test: Validating Synthetic Document Degradation by Whether a Reader
-Fails on the Same Words as on Real Images* (Hajime Hotta, Hajime Institute, Singapore and Ur-AI, Japan; Sandeep Yella,
-Ur-AI, Japan; submitted to IJDAR).
+Fails on the Same Words as on Real Images* (Hajime Hotta, Hajime Institute, Singapore and Ur-AI,
+Japan; submitted to IJDAR).
 
 The read-alike test asks whether a synthetic degradation makes a reader (OCR engine or vision-language model) fail on
 the same words as a real degradation does, not only at the same rate. For each real degraded capture (the test
@@ -304,7 +304,7 @@ conditions with a qualified reader.
 
 ```bibtex
 @article{hotta2026readalike,
-  author  = {Hotta, Hajime and Yella, Sandeep},
+  author  = {Hotta, Hajime},
   title   = {Read-Alike Test: Validating Synthetic Document Degradation by Whether a Reader Fails on the Same Words as on Real Images},
   journal = {International Journal on Document Analysis and Recognition (IJDAR)},
   year    = {2026},
@@ -335,7 +335,7 @@ Please also cite the datasets:
 
 ## License
 
-- **Code** (`code/`): MIT License, see `LICENSE`. Copyright (c) 2026 Hajime Hotta and Sandeep Yella.
+- **Code** (`code/`): MIT License, see `LICENSE`. Copyright (c) 2026 Hajime Institute.
 - **Derived data** (`readings/`, `results/`): CC BY 4.0, see `DATA_LICENSE.md`. They are derived from SmartDoc-QA
   (Nayef et al., 2015; research use only, see its license file) and from the UNLV/ISRI OCR test collection (Rice et al.,
   1995; Apache License 2.0); please attribute both. No SmartDoc-QA images, PDFs, ground truth or transcriptions are

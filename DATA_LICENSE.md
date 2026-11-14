@@ -4,7 +4,7 @@ The derived data in `readings/` and `results/` are licensed under the
 **Creative Commons Attribution 4.0 International License (CC BY 4.0)**,
 https://creativecommons.org/licenses/by/4.0/ .
 
-Attribution: Hajime Hotta and Sandeep Yella, *Read-Alike Test: Validating Synthetic Document Degradation by Whether
+Attribution: Hajime Hotta, *Read-Alike Test: Validating Synthetic Document Degradation by Whether
 a Reader Fails on the Same Words as on Real Images* (2026). Please also attribute the source datasets below.
 
 ## Source datasets
