@@ -1,0 +1,11 @@
+reader vlmblk Android Ob1 PROF=y5 XDOC=0 MASK=sharp: 確かめた撮影 1（文書 1）
+本物どうし(同じ文書の残りの角度) κ 0.13 [nan,nan]  δ=nan
+ours_plane2  no data
+ours_plane   n=  1 κ -0.01 [nan,nan] |Δacc| 0.043 | κ−上限 -0.14 [+nan,+nan] 決まらない
+ours_var     no data
+ours_uni     n=  1 κ 0.03 [nan,nan] |Δacc| 0.014 | κ−上限 -0.10 [+nan,+nan] 決まらない
+albDefocus   n=  1 κ 0.14 [nan,nan] |Δacc| 0.012 | κ−上限 +0.01 [+nan,+nan] 決まらない
+albGauss     n=  1 κ 0.09 [nan,nan] |Δacc| 0.017 | κ−上限 -0.04 [+nan,+nan] 決まらない
+augDepth     n=  1 κ 0.00 [nan,nan] |Δacc| 0.048 | κ−上限 -0.13 [+nan,+nan] 決まらない
+ours_lampdef n=  1 κ 0.03 [nan,nan] |Δacc| 0.019 | κ−上限 -0.10 [+nan,+nan] 決まらない
+null_band    n=  1 κ 0.17 [nan,nan] |Δacc| 0.005 | κ−上限 +0.04 [+nan,+nan] 決まらない

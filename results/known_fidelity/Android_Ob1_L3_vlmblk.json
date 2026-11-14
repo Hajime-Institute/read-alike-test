@@ -1,0 +1,164 @@
+{
+ "rule": "equiv",
+ "light": "L3",
+ "sel": "prof",
+ "reader": "vlmblk",
+ "phone": "Android",
+ "setting": "Ob1",
+ "xdoc": "0",
+ "mask": "sharp",
+ "n_captures": 1,
+ "n_docs": 1,
+ "ceiling": {
+  "mean": 0.13007559672113803,
+  "ci": [
+   NaN,
+   NaN
+  ]
+ },
+ "delta": NaN,
+ "gens": {
+  "ours_plane": {
+   "n": 1,
+   "kappa": {
+    "mean": -0.008775778850371528,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "abs_dacc": 0.0430622009569378,
+   "diff": {
+    "mean": -0.13885137557150956,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "verdict": "決まらない",
+   "chosen": null
+  },
+  "ours_uni": {
+   "n": 1,
+   "kappa": {
+    "mean": 0.05477386934673496,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "abs_dacc": 0.0,
+   "diff": {
+    "mean": -0.07530172737440306,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "verdict": "決まらない",
+   "chosen": null
+  },
+  "albDefocus": {
+   "n": 1,
+   "kappa": {
+    "mean": 0.13599429793300039,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "abs_dacc": 0.011961722488038284,
+   "diff": {
+    "mean": 0.005918701211862359,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "verdict": "決まらない",
+   "chosen": null
+  },
+  "albGauss": {
+   "n": 1,
+   "kappa": {
+    "mean": 0.09714889123548043,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "abs_dacc": 0.031100478468899517,
+   "diff": {
+    "mean": -0.0329267054856576,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "verdict": "決まらない",
+   "chosen": null
+  },
+  "augDepth": {
+   "n": 1,
+   "kappa": {
+    "mean": 0.0,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "abs_dacc": 0.04784688995215314,
+   "diff": {
+    "mean": -0.13007559672113803,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "verdict": "決まらない",
+   "chosen": null
+  },
+  "ours_lampdef": {
+   "n": 1,
+   "kappa": {
+    "mean": -0.03722084367245503,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "abs_dacc": 0.019138755980861233,
+   "diff": {
+    "mean": -0.16729644039359307,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "verdict": "決まらない",
+   "chosen": null
+  },
+  "null_band": {
+   "n": 1,
+   "kappa": {
+    "mean": 0.17207542750340166,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "abs_dacc": 0.005382775119617267,
+   "diff": {
+    "mean": 0.04199983078226363,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "verdict": "決まらない",
+   "chosen": null
+  }
+ },
+ "roles": {},
+ "mix": {}
+}

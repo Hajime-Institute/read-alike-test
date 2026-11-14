@@ -1,0 +1,30 @@
+mag: pages 60 (docs 51), cal 30 pages / 25 docs, eval 30 pages / 26 docs, eval words 17662
+micro acc (all pages): {'2B': 0.9775, '4B': 0.9799, '3B': 0.9805, '3A': 0.9801}
+calibration loss (lower = closer regional profile):
+  syn_s0.0_t96     0.2315
+  syn_s0.5_t128    0.2341
+  syn_s0.5_t160    0.3625
+  syn_s0.5_t96     0.3854
+  syn_s0.0_t128    0.6154
+  syn_s0.0_t160    0.6154
+  syn_s0.5_t192    0.9503
+  syn_s1.0_t160    1.1530
+  syn_s1.0_t128    1.4136
+  syn_s0.0_t192    1.5851
+  syn_s1.0_t192    1.7080
+  syn_s1.5_t160    3.6049
+  syn_s1.5_t192    7.3535
+  syn_s1.0_t96     9.6393
+  syn_s1.5_t128    22.6561
+  syn_s1.5_t96     83.6331
+chosen: syn_s0.0_t96
+eval (ref = real 2B, mask = words read right on 4B):
+  cond                acc  acc2B    diff  kappa fail2B  failC  both  nmask
+  4B                0.978  0.974  +0.005  0.000    156      0     0  17280
+  syn_s0.0_t96      0.968  0.974  -0.005  0.260    156    239    53  17280 <- chosen
+  syn_s0.0_t128     0.974  0.974  +0.000  0.305    156    152    48  17280 <- naive
+CI chosen: {'kappa': [0.1777743813491978, 0.350134523695286], 'diff': [-0.010780051280441566, -0.0006624237787169592]}  CI naive: {'kappa': [0.22474257162118416, 0.3654173797737266], 'diff': [-0.002661442152146551, 0.00365020698905219]}  CI kappa chosen-naive: [-0.15852593559312966, 0.09890306737397354]
+ref_3B_3A_eval: kappa 0.593 CI [0.4893091327360934, 0.6764633414785267]  acc 0.977/0.976  fail 97/108 both 61 nmask 17280
+ref_3B_3A_all: kappa 0.515 CI [0.40761232811247866, 0.5992426308964072]  acc 0.981/0.980  fail 162/159 both 83 nmask 32028
+ref_2B_3B_eval: kappa 0.264 CI [0.18717389403268345, 0.33811733609744454]  acc 0.974/0.977  fail 156/97 both 34 nmask 17280
+wrote results/summary_mag.json

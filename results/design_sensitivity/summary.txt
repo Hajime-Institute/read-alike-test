@@ -1,0 +1,26 @@
+設定                             組  本物(通/決/落)        帰無(通/決/落)    生成器(通/決/落)         通った生成器
+本文(facts_defocus)             15    36/11/0 (47)       0/0/9      3/8/55 (66)  Nokia 1 L2:ours_plane, Nokia 1 L4:ours_plane, Samsung 2 L4:albGauss
+acc01 ACC_LO=0.01             23    42/20/2 (64)      0/0/12     6/25/57 (88)  Nokia 1 L2:ours_plane, Samsung 1 L2:ours_uni, Samsung 1 L2:albDefocus, Samsung 1 L2:albGauss, Samsung 2 L2:albGauss, Samsung 2 L3:ours_lampdef
+acc05 ACC_LO=0.05             15    35/11/1 (47)       0/0/9      3/8/55 (66)  Nokia 1 L2:ours_plane, Nokia 1 L4:ours_plane, Samsung 2 L4:albGauss
+acc10 ACC_LO=0.10             11     28/7/1 (36)       0/0/7      0/8/44 (52)  なし
+base                          15    36/11/0 (47)       0/0/9      3/8/55 (66)  Nokia 1 L2:ours_plane, Nokia 1 L4:ours_plane, Samsung 2 L4:albGauss
+ch10 CH=10                    19    43/19/2 (64)      0/0/12     3/21/64 (88)  Nokia 1 L2:ours_plane, Samsung 2 L2:albGauss, Samsung 2 L4:albGauss
+ch40 CH=40                    17    42/15/1 (58)      0/0/11     2/19/60 (81)  Samsung 2 L2:albGauss, Samsung 2 L4:albGauss
+nb10 NB=10                    13    31/10/0 (41)       0/0/8      2/7/50 (59)  Nokia 1 L4:ours_plane, Samsung 2 L4:albGauss
+nb3 NB=3                      25    43/21/0 (64)      0/0/12     7/21/60 (88)  Nokia 1 L2:ours_plane, Samsung 1 L2:ours_plane, Samsung 1 L2:ours_uni, Samsung 1 L2:albDefocus, Samsung 1 L2:albGauss, Samsung 2 L2:ours_plane, Samsung 2 L2:albGauss
+nosplit SPLIT=0               21    46/15/3 (64)      0/0/12     8/19/61 (88)  Nokia 1 L2:ours_plane, Nokia 1 L3:ours_lampdef, Nokia 1 L4:ours_plane, Samsung 1 L2:ours_plane, Samsung 1 L2:albGauss, Samsung 1 L3:ours_lampdef, Samsung 2 L2:ours_plane, Samsung 2 L2:albGauss
+
+本物との κ の平均(使えた読み手と条件の組)
+設定                            recapture ours_plane ours_plane  null_band   ours_uni albDefocus   albGauss   augDepth
+本文(facts_defocus)                 0.461      0.274      0.110      0.175      0.132      0.104      0.149      0.061
+acc01 ACC_LO=0.01                 0.420      0.244      0.116      0.123      0.156      0.143      0.192      0.049
+acc05 ACC_LO=0.05                 0.485      0.299      0.108      0.205      0.143      0.094      0.152      0.054
+acc10 ACC_LO=0.10                 0.494      0.294      0.097      0.226      0.148      0.083      0.161      0.052
+base                              0.461      0.274      0.110      0.175      0.132      0.104      0.149      0.061
+ch10 CH=10                        0.428      0.268      0.115      0.158      0.133      0.111      0.174      0.041
+ch40 CH=40                        0.441      0.249      0.090      0.154      0.141      0.115      0.165      0.062
+nb10 NB=10                        0.460      0.246      0.091      0.199      0.134      0.106      0.151      0.067
+nb3 NB=3                          0.433      0.278      0.138      0.125      0.131      0.101      0.161      0.040
+nosplit SPLIT=0                   0.445      0.292      0.121      0.168      0.178      0.141      0.202      0.058
+
+base  と本文の判定の食い違い: 0 []

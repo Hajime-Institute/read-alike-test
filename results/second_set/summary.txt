@@ -1,0 +1,18 @@
+Samsung 1 L2   readers docTR,Tesseract              null 落ちる    real 4/2/0
+Samsung 1 L3   readers docTR,Tesseract              null 落ちる    real 4/1/0
+Samsung 1 L4   readers docTR                        null 落ちる    real 5/0/0
+Samsung 2 L2   readers Tesseract                    null 落ちる    real 5/1/0
+Samsung 2 L3   readers docTR,Tesseract              null 落ちる    real 1/4/0
+Samsung 2 L4   readers Tesseract                    null 落ちる    real 3/2/0
+Nokia 1 L2     readers -                            null -      real 0/0/0
+Nokia 1 L3     readers Tesseract                    null 落ちる    real 5/0/0
+Nokia 1 L4     readers -                            null -      real 0/0/0
+Nokia 2 L2     readers docTR,Tesseract,Vision       null 落ちる    real 5/1/0
+Nokia 2 L3     readers docTR,Vision                 null 落ちる    real 5/0/0
+Nokia 2 L4     readers docTR,Tesseract,Vision       null 落ちる    real 3/2/0
+
+使えた読み手と条件の組: 18
+本物の撮影(まとめた判定、通る/決まらない/落ちる): 40/13/0  (計 53)
+読み手ごとの本物の撮影: {'docTR': '31/6/0', 'Tesseract': '34/9/0', 'Vision': '14/2/0'}
+帰無の対照(条件、通る/決まらない/落ちる): 0/0/10  (使えた条件 10)
+κ の平均: 撮り直し 0.420  帰無 0.060

@@ -1,0 +1,2 @@
+8086_033 rot180: ['3A'] low corr: []
+pages checked 60

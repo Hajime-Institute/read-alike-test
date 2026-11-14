@@ -1,0 +1,10 @@
+reader vlmblk WP Ob820 PROF=y5 XDOC=0 MASK=sharp: 確かめた撮影 2（文書 1）
+本物どうし(同じ文書の残りの角度) κ 0.19 [nan,nan]  δ=nan
+ours_plane2  no data
+ours_plane   n=  2 κ 0.79 [nan,nan] |Δacc| 0.044 | κ−上限 +0.60 [+nan,+nan] 決まらない
+ours_var     no data
+ours_uni     n=  2 κ 0.67 [nan,nan] |Δacc| 0.086 | κ−上限 +0.48 [+nan,+nan] 決まらない
+albDefocus   n=  2 κ 0.55 [nan,nan] |Δacc| 0.142 | κ−上限 +0.36 [+nan,+nan] 決まらない
+albGauss     n=  2 κ 0.00 [nan,nan] |Δacc| 0.142 | κ−上限 -0.19 [+nan,+nan] 決まらない
+augDepth     n=  2 κ -0.03 [nan,nan] |Δacc| 0.126 | κ−上限 -0.22 [+nan,+nan] 決まらない
+null_band    n=  2 κ 0.71 [nan,nan] |Δacc| 0.005 | κ−上限 +0.52 [+nan,+nan] 決まらない

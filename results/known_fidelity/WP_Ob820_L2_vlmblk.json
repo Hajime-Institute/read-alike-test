@@ -1,0 +1,144 @@
+{
+ "rule": "equiv",
+ "light": "L2",
+ "sel": "prof",
+ "reader": "vlmblk",
+ "phone": "WP",
+ "setting": "Ob820",
+ "xdoc": "0",
+ "mask": "sharp",
+ "n_captures": 2,
+ "n_docs": 1,
+ "ceiling": {
+  "mean": 0.18853842736561532,
+  "ci": [
+   NaN,
+   NaN
+  ]
+ },
+ "delta": NaN,
+ "gens": {
+  "ours_plane": {
+   "n": 2,
+   "kappa": {
+    "mean": 0.7887159328573348,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "abs_dacc": 0.044186046511627886,
+   "diff": {
+    "mean": 0.6001775054917194,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "verdict": "決まらない",
+   "chosen": null
+  },
+  "ours_uni": {
+   "n": 2,
+   "kappa": {
+    "mean": 0.6722704559541879,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "abs_dacc": 0.08604651162790694,
+   "diff": {
+    "mean": 0.48373202858857256,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "verdict": "決まらない",
+   "chosen": null
+  },
+  "albDefocus": {
+   "n": 2,
+   "kappa": {
+    "mean": 0.5484908735251763,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "abs_dacc": 0.1418604651162791,
+   "diff": {
+    "mean": 0.359952446159561,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "verdict": "決まらない",
+   "chosen": null
+  },
+  "albGauss": {
+   "n": 2,
+   "kappa": {
+    "mean": 0.0,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "abs_dacc": 0.1418604651162791,
+   "diff": {
+    "mean": -0.18853842736561532,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "verdict": "決まらない",
+   "chosen": null
+  },
+  "augDepth": {
+   "n": 2,
+   "kappa": {
+    "mean": -0.030084486694342855,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "abs_dacc": 0.12558139534883722,
+   "diff": {
+    "mean": -0.21862291405995818,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "verdict": "決まらない",
+   "chosen": null
+  },
+  "null_band": {
+   "n": 2,
+   "kappa": {
+    "mean": 0.7069277208022222,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "abs_dacc": 0.005424418604651204,
+   "diff": {
+    "mean": 0.5183892934366069,
+    "ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "verdict": "決まらない",
+   "chosen": null
+  }
+ },
+ "roles": {},
+ "mix": {}
+}
